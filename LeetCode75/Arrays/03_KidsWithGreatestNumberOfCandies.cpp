@@ -17,6 +17,7 @@ public:
       for(int i = 0; i < candies.size(); i++){
         result.push_back(candies[i] + extraCandies >= maxCandies);
       }
+        
       return result;
     }
 };
