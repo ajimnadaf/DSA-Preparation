@@ -20,7 +20,6 @@ public:
                 left++;
             }
 
-            // Move right pointer until vowel found
             while (left < right && !isVowel(s[right])) {
                 right--;
             }
