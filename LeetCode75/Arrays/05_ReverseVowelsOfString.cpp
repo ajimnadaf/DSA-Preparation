@@ -3,6 +3,7 @@
 // Approach: Two Pointers (Swap vowels from start and end)
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+
 class Solution {
 public:
     bool isVowel(char c) {
@@ -28,7 +29,6 @@ public:
             left++;
             right--;
         }
-
         return s;  
     }
 };
