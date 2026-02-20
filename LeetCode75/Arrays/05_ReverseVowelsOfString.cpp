@@ -24,9 +24,7 @@ public:
                 right--;
             }
 
-            // Swap vowels
             swap(s[left], s[right]);
-
             left++;
             right--;
         }
