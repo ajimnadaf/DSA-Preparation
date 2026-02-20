@@ -25,17 +25,5 @@ public:
         return count >= n;
     }
 };
-class Solution{
-public:
-    bool canplaceflowers(vextor<int>& flowerbed, int n) {
-      int count = 0;
-      int size = flowerbed.size();
-
-      for(int i = 0; i < flowerbed.size(); i++) {
-          if(flowerbed[i] == 0) {
-
-              bool emptyLeftPlot = (i == 0) || (flowerbed[i - 1] == 0);
-              bool emptyRightPlot = (i == flowerbed.size() - 1) || (flowerbed[i + 1] == 0);
-
 
 
