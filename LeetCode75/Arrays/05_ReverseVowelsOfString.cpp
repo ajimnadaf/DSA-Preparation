@@ -16,7 +16,6 @@ public:
 
         while (left < right) {
 
-            // Move left pointer until vowel found
             while (left < right && !isVowel(s[left])) {
                 left++;
             }
