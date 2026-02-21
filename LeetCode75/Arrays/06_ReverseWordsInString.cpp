@@ -1,8 +1,8 @@
-// Problem: Reverse Vowels of a String
+// Problem: Reverse Words in a String
 // Platform: LeetCode 75
-// Approach: Two Pointers
+// Approach: Reverse Traversal
 // Time Complexity: O(n)
-// Space Complexity: O(1)
+// Space Complexity: O(n)
 class Solution {
 public:
     string reverseWords(string s) {
