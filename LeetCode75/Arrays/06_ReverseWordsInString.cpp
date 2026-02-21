@@ -3,6 +3,7 @@
 // Approach: Reverse Traversal
 // Time Complexity: O(n)
 // Space Complexity: O(n)
+
 class Solution {
 public:
     string reverseWords(string s) {
@@ -10,7 +11,6 @@ public:
         int i = s.length() - 1;
 
         while(i >= 0) {
-
             while(i >= 0 && s[i] == ' ')
             i--;
 
@@ -18,7 +18,6 @@ public:
                 break;
 
             int j = i;
-
             while(i >= 0 && s[i] != ' ')
             i--;
 
@@ -27,8 +26,6 @@ public:
 
             result += s.substr(i + 1, j - i);
         }
-
         return result;
-
     }
 };
