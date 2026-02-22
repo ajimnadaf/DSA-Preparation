@@ -3,7 +3,6 @@
 // Approach: Reverse Traversal
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-
 class Solution {
 public:
     string reverseWords(string s) {
