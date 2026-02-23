@@ -2,7 +2,7 @@
 // Platform: LeetCode 75
 // Approach: Prefix and Suffix Product (Without Division)
 // Time Complexity: O(n)
-// Space Complexity: O(1)  // (excluding output array)
+// Space Complexity: O(1)
 
 class Solution {
 public:
