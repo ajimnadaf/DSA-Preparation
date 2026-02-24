@@ -2,7 +2,8 @@
 // Platform: LeetCode 75
 // Approach: Greedy (Track smallest and second smallest elements)
 // Time Complexity: O(n)
-// Space Complexity: O(1)class Solution {
+// Space Complexity: O(1)
+class Solution {
 public:
     bool increasingTriplet(vector<int>& nums) {
         int first = INT_MAX;
