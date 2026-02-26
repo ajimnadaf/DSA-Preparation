@@ -3,6 +3,7 @@
 // Approach: Two Pointers (Greedy - Move smaller height)
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+
 class Solution {
 public:
     int maxArea(vector<int>& height) {
